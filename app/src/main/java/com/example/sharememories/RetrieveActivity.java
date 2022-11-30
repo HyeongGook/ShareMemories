@@ -3,8 +3,11 @@ package com.example.sharememories;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class RetrieveActivity extends AppCompatActivity {
@@ -22,5 +25,14 @@ public class RetrieveActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item, locations);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+
+        Button writeAction = (Button) findViewById(R.id.writeAction);
+        writeAction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RetrieveActivity.this, AddTitleActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

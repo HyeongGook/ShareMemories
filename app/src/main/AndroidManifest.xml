@@ -19,21 +19,38 @@
             android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".RetrieveActivity"
-            android:label="RetrieveActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light">>
-        </activity>
+            android:label="RetrieveActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name=".MainActivity"
-            android:label="MainActivity" />
+            android:exported="true"
+            android:label="MainActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".AddTitleActivity"
+            android:exported="true"
+            android:label="AddTitleActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".AddMarkerActivity"
+            android:exported="true"
+            android:label="AddMarkerActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true"
+            android:label="SearchActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDtrUs3057sDLGTsAW-5LiRToW7o39oseg" />
+            android:value="${MAPS_API_KEY}" />
     </application>
 
 </manifest>
