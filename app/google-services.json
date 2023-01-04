@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "472308076766",
+    "project_id": "sharememories-80150",
+    "storage_bucket": "sharememories-80150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472308076766:android:1ab10cb5500495560fb24f",
+        "android_client_info": {
+          "package_name": "com.example.sharememories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472308076766-jchf9ocfpv0kg76actmucdnc502ndb6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharememories",
+            "certificate_hash": "b8adc9816b6e22da4de9436f716b7501bd0c5c71"
+          }
+        },
+        {
+          "client_id": "472308076766-3ecpqolm6oo0qsjvcqlfbqje8b7lanmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi6JE4QJwvwCkP09FBqAdFKtsfpkvkbyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472308076766-3ecpqolm6oo0qsjvcqlfbqje8b7lanmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

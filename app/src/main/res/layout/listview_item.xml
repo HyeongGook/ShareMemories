@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+    android:layout_height="300dp"
+    android:background="@drawable/picture_card">
+        <ImageView
+            android:id="@+id/thumbnailImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/picture_card"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022.09.03"
+                android:fontFamily="@font/content_light"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제주도 여행"
+                android:fontFamily="@font/content_bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+        </LinearLayout>
 </FrameLayout>

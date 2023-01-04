@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/content_light"
+        android:gravity="left"
+        android:textSize="30dp"
+        android:text="X" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:text="회원가입"
+        android:fontFamily="@font/title"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/groupIdUp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="2.5dp"
+        android:paddingHorizontal="5dp"
+        android:fontFamily="@font/content_light"
+        android:background="@drawable/signup_edit"
+        android:textColor="@color/black"
+        android:hint="그룹아이디" />
+    <EditText
+        android:id="@+id/nicknameUp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="2.5dp"
+        android:paddingHorizontal="5dp"
+        android:fontFamily="@font/content_light"
+        android:background="@drawable/signup_edit"
+        android:textColor="@color/black"
+        android:hint="닉네임" />
+    <EditText
+        android:id="@+id/passWordUp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="2.5dp"
+        android:paddingHorizontal="5dp"
+        android:fontFamily="@font/content_light"
+        android:background="@drawable/signup_edit"
+        android:textColor="@color/black"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/saveAc"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="가입하기"
+        android:fontFamily="@font/title"
+        android:background="@drawable/black_round"
+        android:textColor="@color/white"
+        android:layout_marginVertical="10dp"/>
+</LinearLayout>
